@@ -34,7 +34,7 @@ jobs:
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Install dependencies
-        run: composer install
+        run: composer install --prefer-source --no-interaction
 
       - name: Test with phpunit
         run: vendor/bin/phpunit tests
