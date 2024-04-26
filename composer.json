@@ -40,13 +40,13 @@
   ],
   "require": {
     "php": ">=8.0",
-    "twilio/sdk": "6.33.0",
+    "twilio/sdk": ">=6.33.0",
     "ratchet/pawl": "^0.4.1",
-    "monolog/monolog": "^1.24 || ^2.0 || ^3.0",
+    "monolog/monolog": ">=1.24",
     "ramsey/uuid": "^3.8 || ^4.0",
     "recoil/react": "1.0.3",
     "guzzlehttp/guzzle": ">=6.0",
-    "psr/log": "^1.0 || ^2.0 || ^3.0"
+    "psr/log": "^2.0 || ^3.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^8 || ^9",
